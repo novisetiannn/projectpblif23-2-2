@@ -3,7 +3,7 @@
 
 <head>
 	<!-- Favicons -->
-	<link href="<?= base_url()?>vendor/image/logo.png" rel="icon">
+	<link href="<?= base_url()?>vendor/image/logotese.png" rel="icon">
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -24,19 +24,19 @@
 	<div class="global-container">
 		<div class="container d-flex justify-content-center align-items-center" style="min-height: 100vh">
 			<form class="login-form" action="<?php echo base_url('Login/ceklogin'); ?>" method="post">
-				<p align="center" style="color: white; font-size: 40px; font-weight: lighter;">SEMB-OWS Tracking</p>
-				<div class="card container col-5 pt-4 pb-5" id="main">
+				<p align="center" style="color: white; font-size: 40px; font-weight: lighter;">TESE App</p>
+				<div class="card container col-5 pt-4 pb-5" id="main" style="width: 80%; max-width: 1200px;">
 					<div class="card-body">
 						<div class="mb-3">
-							<input type="text" class="form-control" name="username" id="username" placeholder="SESA ID">
+						<input type="text" class="form-control" name="username" id="username" placeholder="SESA ID" style="height: 50px; font-size: 20px;">
 						</div>
 						<div class="mb-3">
-							<input type="password" name="password" class="form-control" id="password" placeholder="Password">
+						<input type="password" name="password" class="form-control" id="password" placeholder="Password" style="height: 50px; font-size: 20px;">
 						</div>
 						<div class="mb-3" align="center">
-							<button type="submit" class="form-control btn btn-primary"><i class="fa-solid fa-right-to-bracket"></i> Sign In</button>
+						<button type="submit" class="form-control btn btn-primary" style="height: 50px; font-size: 20px;"><i class="fa-solid fa-right-to-bracket"></i> Sign In</button>
 						</div>
-						<img alt="" src="vendor/Image/schneider-electric.png" width="100%">
+						<img alt="" src="vendor/Image/pt-tese.png" width="100%">
 					</div>
 				</div>
 			</form>

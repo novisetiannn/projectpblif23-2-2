@@ -6,7 +6,7 @@ $username = $_SESSION['username'];
 
 <head>
 	 <!-- Favicons -->
-	 <link href="<?= base_url()?>vendor/image/logo.png" rel="icon">
+	 <link href="<?= base_url()?>vendor/image/logotese.png" rel="icon">
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -31,7 +31,7 @@ $username = $_SESSION['username'];
             left: 0;
             height: 100%;
             width: 200px; /* Adjust the width as needed */
-            background-color: #333; /* Adjust the background color as needed */
+            background-color: #2371b9; /* Adjust the background color as needed */
             color: #fff; /* Adjust the text color as needed */
             overflow-y: auto; /* Enable scrolling if sidebar height exceeds viewport */
             z-index: 1000; /* Ensure sidebar appears above other content */

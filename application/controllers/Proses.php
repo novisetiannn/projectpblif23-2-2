@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') or exit('No direct script access allowed');
+defined('BASEPATH') or exit ('No direct script access allowed');
 
 class Proses extends CI_Controller
 {
@@ -13,7 +13,7 @@ class Proses extends CI_Controller
     {
         $this->load->view('Proses/input1');
     }
-
+        
     public function letak()
     {
         $this->load->view('Proses/letak');
